@@ -9,7 +9,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        bpBotPurple: '#4151F6'
+        bpBotPurple: '#4151F6',
+        bpBotDarkPurple: "#29339B",
+        rustyRed: "#DD2C48",
+        ultraRed: "#F16A8D"
       }
     },
   },
