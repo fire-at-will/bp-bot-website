@@ -1,19 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="build/tailwind.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      description="Take control of you blood pressure today with BP Bot, available on the App Store. With BP Bot's easy to use interface, there's never been an easier way to track your blood pressure. Let our cutting-edge analysis find trends and patterns in your blood pressure data."
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link rel="stylesheet" rel="preload" href="build/tailwind.css" />
+
     <title>BP Bot</title>
-</head>
-<body>
-    <div class="h-64">
-        <div class="p-4 m-4 bg-bpBotPurple">
-            <h1 class="text-2xl font-bold text-white">BP Bot</h1>
+  </head>
+  <body>
+    <div class="flex flex-col h-screen">
+      <!-- Header -->
+      <nav class="w-full bg-gray-200 py-2 md:py-4">
+        <div class="container px-4 mx-auto md:flex md:items-center">
+          <div class="flex justify-between items-center">
+            <a href="#" class="font-bold text-2xl text-bpBotPurple">BP Bot</a>
+
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-bpBotPurple text-center border border-solid border-bpBotPurple rounded hover:bg-bpBotPurple hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
+              >Download on the App Store</a
+            >
+          </div>
         </div>
-        <div class="p-4 m-4 bg-green-300 h-full">
-            <h2 class="text-green-900">Have much fun using Tailwind CSS okay!</h2>
+      </nav>
+
+      <!-- Body -->
+      <div class="flex-1 overflow-y-auto justify-center">
+        <!-- Start  -->
+        <div class="p-8 flex justify-center">
+          <!-- Apps  -->
+          <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 pb-8">
+            <!-- BP Bot Card -->
+            <div
+              class="max-w-md mx-auto bg-gradient-to-tr from-rustyRed to-ultraRed rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+            >
+            <div class="text-white p-8">
+                BP Bot is the easiest way to log and analyze your blood pressure. There’s never been a more convenient way to record, organize, and find patterns in your blood pressure!
+
+            </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Footer -->
+        <div class="bg-bpBotDarkPurple w-screen py-2 md:py-4">
+          <div class="container px-4 py-4 mx-auto flex-col">
+            <a href="#" class="font-bold text-2xl text-gray-300">BP Bot</a>
+          </div>
+
+          <div class="container py-2 px-4 mx-auto md:flex md:items-center">
+            <a
+              class="hover:underline footerLink text-gray-500 my-6"
+              href="https://bpbot.app"
+              >Home</a
+            >
+          </div>
+
+          <div class="container py-2 px-4 mx-auto md:flex md:items-center">
+            <a
+              class="hover:underline footerLink text-gray-500 py-6"
+              href="https://bpbot.app/termsOfService/?nocache=1"
+              >Terms of Service</a
+            >
+          </div>
+
+          <div class="container py-2 px-4 mx-auto md:flex md:items-center">
+            <a
+              class="hover:underline footerLink text-gray-500 py-6"
+              href="https://bpbot.app/privacyPolicy/?nocache=1"
+              >Privacy Policy</a
+            >
+          </div>
+
+          <div class="container py-4 px-4 mx-auto md:flex md:items-center">
+            <div class="flex justify-between items-center">
+              <a
+                href="#"
+                class="p-2 lg:px-4 md:mx-2 text-gray-500 text-center border border-solid border-gray-600 rounded hover:bg-bpBotPurple hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
+                >Download on the App Store</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
