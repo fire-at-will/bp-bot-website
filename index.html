@@ -1,234 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      description="Take control of you blood pressure today with BP Bot, available on the App Store. With BP Bot's easy to use interface, there's never been an easier way to track your blood pressure. Let our cutting-edge analysis find trends and patterns in your blood pressure data."
-    />
-
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./images/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./images/favicon/site.webmanifest" />
-    <link rel="stylesheet" rel="preload" href="build/tailwind.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
-
-    <!-- iMessage Metadata -->
-    <meta property="og:title" content="BP Bot" />
-    <meta property="og:image" content="https://www.bpbot.app/images/promo_image.png" />
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@BPBotApp">
-    <meta name="twitter:creator" content="@Fire_At_Will_">
-    <meta name="twitter:title" content="BP Bot">
-    <meta name="twitter:description" content="BP Bot makes keeping track of your blood pressure a snap. Uncover patterns and correlations in your blood pressure that only a robot could find!">
-    <meta name="twitter:image" content="https://www.bpbot.app/images/promo_image.png">
-
-    <title>BP Bot</title>
-  </head>
-  <body>
-    <div class="flex flex-col h-screen">
-      <!-- Body -->
-      <div class="flex-1 overflow-y-auto justify-center items-center">
-        <!-- Start  -->
-        <div class="flex justify-center items-center w-screen pt-6">
-          <h1 class="text-3xl text-bpBotPurple">BP Bot</h1>
-        </div>
-        
-
-        <!-- Promo Image -->
-        <div class="flex justify-center items-center w-screen pt-6">
-          <div class="py-6">
-            <img class="rounded-xl md:rounded-3xl max-w-full lg:max-w-5xl xl:max-w-screen-xl " src="images/promo_image.png"></img>
-          </div>
-        </div>
-
-        <!-- Links -->
-        <div class="flex justify-center items-center w-screen py-8">
-          <div class="grid justify-center grid-cols-2 gap-16 px-6 max-w-screen-sm lg:max-w-5xl xl:max-w-screen-xl">
-
-            <!-- Frictionless Recording -->
-            <div class="flex justify-start items-baseline">
-              <a
-              href="#"
-              class="p-2"
-              >
-              <img src="images/download_on_app_store.svg"/>
-              </a>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+         description="Take control of you blood pressure today with BP Bot, available on the App Store. With BP Bot's easy to use interface, there's never been an easier way to track your blood pressure. Let our cutting-edge analysis find trends and patterns in your blood pressure data."
+         />
+      <!-- Favicons -->
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="./images/favicon/apple-touch-icon.png"
+         />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon/favicon-32x32.png"
+         />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="./images/favicon/favicon-16x16.png"
+         />
+      <link rel="manifest" href="./images/favicon/site.webmanifest" />
+      <link rel="stylesheet" rel="preload" href="build/tailwind.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+      <!-- iMessage Metadata -->
+      <meta property="og:title" content="BP Bot" />
+      <meta property="og:image" content="https://www.bpbot.app/images/promo_image.png" />
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@BPBotApp">
+      <meta name="twitter:creator" content="@Fire_At_Will_">
+      <meta name="twitter:title" content="BP Bot">
+      <meta name="twitter:description" content="BP Bot makes keeping track of your blood pressure a snap. Uncover patterns and correlations in your blood pressure that only a robot could find!">
+      <meta name="twitter:image" content="https://www.bpbot.app/images/promo_image.png">
+      <title>BP Bot</title>
+   </head>
+   <body>
+      <div class="max-w-screen-sm lg:max-w-5xl xl:max-w-screen-xl">
+         <!-- Body -->
+            <!-- Start  -->
+            <div class="flex justify-center items-center w-screen pt-6">
+               <h1 class="text-3xl text-bpBotPurple">BP Bot</h1>
             </div>
-
-            <div class="flex justify-center items-baseline">
-              <!-- Press Kit -->
-              <a
-              href="#"
-              class="p-2 lg:px-4 md:mx-2 text-gray-700 text-center border border-solid border-text-gray-700 rounded hover:bg-bpBotPurple hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
-              >Press Kit
-            </a>
+            <!-- Promo Image -->
+            <div class="flex justify-center items-center w-screen pt-6">
+               <div class="py-6">
+                  <img class="rounded-xl md:rounded-3xl max-w-full lg:max-w-5xl xl:max-w-screen-xl " src="images/promo_image.png"></img>
+               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Benefits Grid -->
-        <div class="flex justify-center items-center w-screen py-8">
-          <div class="grid justify-center grid-cols-1 md:grid-cols-3 gap-8 px-6 max-w-screen-sm lg:max-w-5xl xl:max-w-screen-xl">
-
-            <!-- Frictionless Recording -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Frictionless Recording</h3>
-                <p class="text-gray-700">Record your blood pressure instantly with the touch of a button.</p>
-              </div>
+            <!-- Links -->
+            <div class="flex justify-center items-center w-screen py-8">
+               <div class="grid justify-center grid-cols-2 gap-16 px-6 max-w-screen-sm lg:max-w-5xl xl:max-w-screen-xl">
+                  <!-- Frictionless Recording -->
+                  <div class="flex justify-start items-baseline">
+                     <a
+                        href="#"
+                        class="p-2"
+                        >
+                     <img src="images/download_on_app_store.svg"/>
+                     </a>
+                  </div>
+                  <div class="flex justify-center items-baseline">
+                     <!-- Press Kit -->
+                     <a
+                        href="#"
+                        class="p-2 lg:px-4 md:mx-2 text-gray-700 text-center border border-solid border-text-gray-700 rounded hover:bg-bpBotPurple hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
+                        >Press Kit
+                     </a>
+                  </div>
+               </div>
             </div>
-  
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Intelligent Analysis</h3>
-                <p class="text-gray-700">Uncover patterns and correlations in your blood pressure that only a robot could find.</p>
-              </div>
+            <!-- Benefits Grid -->
+            <div class="flex justify-center items-center w-screen py-8">
+               <!-- <div class="grid grid-cols-1 md:grid-cols-6 gap-8 px-6 max-w-screen-sm lg:max-w-5xl xl:max-w-screen-xl"> -->
+               <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-screen-sm lg:max-w-5xl xl:max-w-screen-xl">
+                  <!-- Frictionless Recording -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Frictionless Recording</h3>
+                     <p class="text-gray-700">Record your blood pressure instantly with the touch of a button.</p>
+                  </div>
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Intelligent Analysis</h3>
+                     <p class="text-gray-700">Uncover patterns and correlations in your blood pressure that only a robot could find.</p>
+                  </div>
+                  <!-- Risk Factors -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Risk Factor Tracking*</h3>
+                     <p class="text-gray-700">Log factors that influence blood pressure with each recording and uncover potential connections between your habits and blood pressure recordings.</p>
+                  </div>
+                  <!-- Heart Rate Recording -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Heart Rate Recording*</h3>
+                     <p class="text-gray-700">Log your pulse with each recording with the tap of a button.</p>
+                  </div>
+                  <!-- BP Reminder -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Never Forget a Recording Again</h3>
+                     <p class="text-gray-700">BP Bot can automatically remind you to take your blood pressure at a designated time.</p>
+                  </div>
+                  <!-- iCloud -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">iCloud Sync*</h3>
+                     <p class="text-gray-700">Record and view your blood pressure on all of your devices. Make your recording on your iPhone and watch it instantly appear on your iPad!</p>
+                  </div>
+                  <!-- Health App Sync -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Health App Sync*</h3>
+                     <p class="text-gray-700">Import recordings from the Health App and Health App compatible blood pressure monitors. Additionally, upload all of your recordings to to the Health App.</p>
+                  </div>
+                  <!-- Easy Exporting -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Easy Exporting</h3>
+                     <p class="text-gray-700">Export your recordings to a .CSV file with the tap of a button.</p>
+                  </div>
+                  <!-- Privacy -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Built for Privacy</h3>
+                     <p class="text-gray-700">All health information is stored on your device or Apple iCloud account and cannot be viewed or sold by us, ever.</p>
+                  </div>
+                  <!-- Dark Mode -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Lights Out</h3>
+                     <p class="text-gray-700">Using your phone at night? Each screen has a handmade Dark Mode version.</p>
+                  </div>
+                  <!-- Accessible -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Accessible for Everyone</h3>
+                     <p class="text-gray-700">Built for VoiceOver, we take every measure possible to ensure that everyone can take control of their blood pressure with BP Bot.</p>
+                  </div>
+                  <!-- Dynamic Type -->
+                  <div>
+                     <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Adaptive Fonts</h3>
+                     <p class="text-gray-700">Dynamic type support ensures that BP Bot looks great at small, medium, and large font sizes.</p>
+                  </div>
+                  <p class="text-gray-600 text-sm">*Requires an active BP Bot Pro subscription</p>
+               </div>
             </div>
-
-            <!-- Risk Factors -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Risk Factor Tracking*</h3>
-                <p class="text-gray-700">Log factors that influence blood pressure with each recording and uncover potential connections between your habits and blood pressure recordings.</p>
-              </div>
-            </div>
-
-            <!-- Heart Rate Recording -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Heart Rate Recording*</h3>
-                <p class="text-gray-700">Log your pulse with each recording with the tap of a button.</p>
-              </div>
-            </div>
-
-            <!-- BP Reminder -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Never Forget a Recording Again</h3>
-                <p class="text-gray-700">BP Bot can automatically remind you to take your blood pressure at a designated time.</p>
-              </div>
-            </div>
-
-            <!-- iCloud -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">iCloud Sync*</h3>
-                <p class="text-gray-700">Record and view your blood pressure on all of your devices. Make your recording on your iPhone and watch it instantly appear on your iPad!</p>
-              </div>
-            </div>
-
-            <!-- Health App Sync -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Health App Sync*</h3>
-                <p class="text-gray-700">Import recordings from the Health App and Health App compatible blood pressure monitors. Additionally, upload all of your recordings to to the Health App.</p>
-              </div>
-            </div>
-
-            <!-- Easy Exporting -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Easy Exporting</h3>
-                <p class="text-gray-700">Export your recordings to a .CSV file with the tap of a button.</p>
-              </div>
-            </div>
-
-            <!-- Privacy -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Built for Privacy</h3>
-                <p class="text-gray-700">All health information is stored on your device or Apple iCloud account and cannot be viewed or sold by us, ever.</p>
-              </div>
-            </div>
-
-            <!-- Dark Mode -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Lights Out</h3>
-                <p class="text-gray-700">Using your phone at night? Each screen has a handmade Dark Mode version.</p>
-              </div>
-            </div>
-          
-            <!-- Accessible -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Accessible for Everyone</h3>
-                <p class="text-gray-700">Built for VoiceOver, we take every measure possible to ensure that everyone can take control of their blood pressure with BP Bot.</p>
-              </div>
-            </div>
-
-            <!-- Dynamic Type -->
-            <div class="flex justify-center items-baseline">
-              <div>
-                <h3 class="block text-lg text-bpBotPurple leading-tight font-normal">Adaptive Fonts</h3>
-                <p class="text-gray-700">Dynamic type support ensures that BP Bot looks great at small, medium, and large font sizes.</p>
-              </div>
-            </div>
-
-            <p class="text-gray-600 text-sm">*Requires an active BP Bot Pro subscription</p>
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="bg-bpBotDarkPurple w-screen py-2 md:py-4">
-          <div class="container px-4 py-4 mx-auto flex-col">
-            <a href="#" class="font-bold text-2xl text-gray-300">BP Bot</a>
-          </div>
-
-          <div class="container py-2 px-4 mx-auto md:flex md:items-center">
-            <a
-              class="hover:underline footerLink text-gray-500 my-6"
-              href="https://bpbot.app"
-              >Home</a
-            >
-          </div>
-
-          <div class="container py-2 px-4 mx-auto md:flex md:items-center">
-            <a
-              class="hover:underline footerLink text-gray-500 py-6"
-              href="https://bpbot.app/termsOfService/?nocache=1"
-              >Terms of Service</a
-            >
-          </div>
-
-          <div class="container py-2 px-4 mx-auto md:flex md:items-center">
-            <a
-              class="hover:underline footerLink text-gray-500 py-6"
-              href="https://bpbot.app/privacyPolicy/?nocache=1"
-              >Privacy Policy</a
-            >
-          </div>
-
-          <div class="container py-4 px-4 mx-auto md:flex md:items-center">
-            <div class="flex justify-between items-center">
-              <a
-                href="#"
-                >
-                <img src="images/download_on_app_store_white.svg"/>
-                </a
-              >
-            </div>
-          </div>
-        </div>
+            <!-- Footer -->
+            <div class="bg-bpBotDarkPurple w-screen py-2 md:py-4">
+               <div class="container px-4 py-4 mx-auto flex-col">
+                  <a href="#" class="font-bold text-2xl text-gray-300">BP Bot</a>
+               </div>
+               <div class="container py-2 px-4 mx-auto md:flex md:items-center">
+                  <a
+                     class="hover:underline footerLink text-gray-500 my-6"
+                     href="https://bpbot.app"
+                     >Home</a
+                     >
+               </div>
+               <div class="container py-2 px-4 mx-auto md:flex md:items-center">
+                  <a
+                     class="hover:underline footerLink text-gray-500 py-6"
+                     href="https://bpbot.app/termsOfService/?nocache=1"
+                     >Terms of Service</a
+                     >
+               </div>
+               <div class="container py-2 px-4 mx-auto md:flex md:items-center">
+                  <a
+                     class="hover:underline footerLink text-gray-500 py-6"
+                     href="https://bpbot.app/privacyPolicy/?nocache=1"
+                     >Privacy Policy</a
+                     >
+               </div>
+               <div class="container py-4 px-4 mx-auto md:flex md:items-center">
+                  <div class="flex justify-between items-center">
+                     <a
+                        href="#"
+                        >
+                     <img src="images/download_on_app_store_white.svg"/>
+                     </a
+                        >
+                  </div>
+               </div>
+         </div>
       </div>
-    </div>
-  </body>
+   </body>
 </html>
