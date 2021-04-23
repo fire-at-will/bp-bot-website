@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771ea9d2-7e2b-4a99-9041-24cc862b8c31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +32,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619131959049</updated>
-      <workItem from="1619131961109" duration="1431000" />
+      <workItem from="1619131961109" duration="1650000" />
     </task>
     <servers />
   </component>
